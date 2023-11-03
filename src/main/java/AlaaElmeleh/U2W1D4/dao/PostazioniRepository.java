@@ -1,0 +1,13 @@
+package AlaaElmeleh.U2W1D4.dao;
+
+import AlaaElmeleh.U2W1D4.entities.Postazione;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface PostazioniRepository extends JpaRepository<Postazione,Long> {
+
+
+
+
+}
